@@ -113,9 +113,6 @@ def handle(msg):
                 bot.sendMessage(chat_id, "Yea, thats a bit too extreme for telegram I'm afraid")
                 print "An error occured during sending"
 
-        else:
-            print "The message was not an unciode message"
-
         # Remove temp text images
         if is_unicode:
             for x in range(0, text_count):
